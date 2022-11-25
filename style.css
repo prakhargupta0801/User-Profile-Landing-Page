@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #c9ced1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 28%;
+    height: 90vh;
+    background-color: #FFF;
+    box-shadow: 0px 0px 20px 8px rgba(20, 20, 20, 0.4);
+    border-radius: 10px;
+}
+
+.box1 {
+    width: 35vh;
+    height: 35vh;
+    background-color: #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    margin-top: 7vmax;
+    margin-left: 4vmax;
+}
+
+.box2 {
+    width: 35vh;
+    height: 35vh;
+    background-color: aqua;
+    position: absolute;
+    left: 44%;
+    top: 10%;
+    background-image: url(images/image1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.box1 h1 {
+    font: 100 1vmax "cocogoose";
+    margin-left: 1.5vmax;
+    letter-spacing: 10px;
+}
+
+.box1 h1 span {
+    font: 500 1vmax "montserrat";
+
+}
+
+.box1 h2 {
+    font: 700 0.5vmax "montserrat";
+    letter-spacing: 10px;
+    margin-left: 1.5vmax;
+    margin-bottom: 1vmax;
+}
+
+.box h3 {
+    font-family: 'Allura', cursive;
+    font-size: 3vmax;
+    font-weight: 100;
+    margin-left: 4vmax;
+    margin-top: 1vmax;
+}
+
+.box p {
+    font: 600 0.6vmax "montserrat";
+    margin-left: 4vmax;
+}
+
+.box h6 {
+    font: 600 0.68vmax "montserrat";
+    margin-left: 4vmax;
+}
+.div2{
+    display: flex;
+    width: 70%;
+    height: 6%;flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+.div11{
+    display: flex;
+    width: 100%;
+    height: 50%;   
+    margin-left: 4vmax;
+    margin-top: 2vmax;
+}
+.div11 h4{
+    font: 500 0.7vmax "montserrat";
+    margin-top: 0.2vmax;
+    margin-left: 0.5vmax;
+    letter-spacing: 1px;
+    
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .box {
+        width: 90%;
+       
+    }
+    .box2{
+        width: 55%;
+        height: 30%;
+        margin-top: -3vmax;
+        margin-left: -7vmax;
+    }
+    .box1 h1 {
+        font-size: 2.35vmax;
+    }
+    .box1 h1 span {
+        font-size: 1.5vmax;
+    }
+    .box1 h2 {
+        font-size: 2vmax;
+        font-weight: 500;
+    }
+    .box h3 {
+        font-size: 8vmax;
+    }
+    .box p {
+        font-size: 1vmax;
+    }
+    .div11 h4{
+        font-size: 1.2vmax;
+    }
+    
+  }
+
+  @media (min-width: 481px) and (max-width: 700px) {
+
+    .box {
+        width: 68%;
+       
+    }
+    .box2{
+        width: 45%;
+        height: 30%;
+        margin-top: -3vmax;
+        margin-left: -5vmax;
+    }
+    .box1 h1 {
+        font-size: 2.35vmax;
+    }
+    .box1 h1 span {
+        font-size: 1.5vmax;
+    }
+    .box1 h2 {
+        font-size: 2vmax;
+        font-weight: 500;
+    }
+    .box h3 {
+        font-size: 8vmax;
+    }
+    .box p {
+        font-size: 1.5vmax;
+    }
+    .div11 h4{
+        font-size: 1.4vmax;
+    }
+    
+  }
+  @media (min-width: 701px) and (max-width: 800px) {
+
+    .box {
+        width: 50%;
+       
+    }
+    .box2{
+        width: 30%;
+        height: 30%;
+        margin-top: -3vmax;
+        margin-left: -5vmax;
+    }
+    .box1 h1 {
+        font-size: 2.35vmax;
+    }
+    .box1 h1 span {
+        font-size: 1.5vmax;
+    }
+    .box1 h2 {
+        font-size: 2vmax;
+        font-weight: 500;
+    }
+    .box h3 {
+        font-size: 8vmax;
+    }
+    .box p {
+        font-size: 1.5vmax;
+    }
+    .div11 h4{
+        font-size: 1.4vmax;
+    }
+    
+  }
+
+  @media (min-width: 801px) and (max-width: 1000px) {
+
+    .box {
+        width: 45%;
+       
+    }
+    .box2{
+        width: 30%;
+        height: 30%;
+        margin-top: -3vmax;
+        margin-left: -5vmax;
+    }
+    .box1 h1 {
+        font-size: 2.35vmax;
+    }
+    .box1 h1 span {
+        font-size: 1.5vmax;
+    }
+    .box1 h2 {
+        font-size: 2vmax;
+        font-weight: 500;
+    }
+    .box h3 {
+        font-size: 8vmax;
+    }
+    .box p {
+        font-size: 1.5vmax;
+    }
+    .div11 h4{
+        font-size: 1.4vmax;
+    }
+    
+  }
+  @media (min-width: 1001px) and (max-width: 1200px) {
+
+    .box {
+        width: 40%;
+       
+    }
+    .box2{
+        width: 25%;
+        height: 30%;
+        margin-top: -3vmax;
+        margin-left: -5vmax;
+    }
+    .box1 h1 {
+        font-size: 2vmax;
+    }
+    .box1 h1 span {
+        font-size: 1.2vmax;
+    }
+    .box1 h2 {
+        font-size: 1.2vmax;
+        font-weight: 500;
+    }
+    .box h3 {
+        font-size: 5vmax;
+    }
+    .box p {
+        font-size: 1.1vmax;
+    }
+    .div11 h4{
+        font-size: 1.4vmax;
+    }
+    
+  }
